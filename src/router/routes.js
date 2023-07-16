@@ -1,6 +1,8 @@
 const routes = [
   {
     path: "/",
+    name: "Index",
+    redirect: "/login",
     component: () => import("layouts/MainLayout.vue"),
   },
   {

@@ -2,7 +2,7 @@ import { boot } from "quasar/wrappers";
 import axios from "axios";
 
 let baseURL = import.meta.env.DEV
-  ? "https://localhost:7146/api"
+  ? "http://localhost:7146/api"
   : "http://costur.co:8082/api";
 
 // Be careful when using SSR for cross-request state pollution
