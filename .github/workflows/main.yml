@@ -1,0 +1,11 @@
+name: My Workflow
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+      - name: Prueba 1
+      run: echo "prueba Inicial"
