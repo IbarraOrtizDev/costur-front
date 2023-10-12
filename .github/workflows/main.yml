@@ -8,4 +8,4 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Prueba 1
-      run: echo "prueba Inicial"
+        run: echo "prueba Inicial"
