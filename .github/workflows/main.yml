@@ -9,3 +9,7 @@ jobs:
     steps:
     - name: Clone code
       uses: actions/checkout@v2
+    - name: Install
+      run: npm install
+    - name: build
+      run: npm run build
